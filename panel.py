@@ -1,15 +1,15 @@
-# panel uzytkownika
+# User panel
 
-print ("\tPanel uzytkownika")
+print ("\tUser panel")
 security = 0
 
 username= ""
 while not username:
-    username = input ("Uzytkownik: ")
+    username = input ("User: ")
 
 password = ""
 while not password :
-     password = input ("Haslo: ")
+     password = input ("Password: ")
 
 if username == "Aleksandra" and password == "sekret" :
             print ("Hello Aleksandra")
@@ -19,7 +19,7 @@ elif username == "Gosc" and password == "gosc":
             print ("Hello")
             security = 1
 else:
-            print ("Nieautoryzowana proba dostepu!\n")
+            print ("Unauthorized access attempt!\n")
 
 
-input ("\n\nAby zakonczyc dzialanie programu nacisnij dowolny klawisz.")
+input ("\n\nPress any key to quit the program.")
